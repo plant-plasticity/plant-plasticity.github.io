@@ -32,8 +32,8 @@ section {
     padding-top: 30px;
 }
 
-article.aim section.aim-main h2 {
-    font-size: 125%;
+article.aim section.aim-main h1 {
+    font-size: 150%;
     line-height: 1.2;
 }
 
