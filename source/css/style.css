@@ -29,24 +29,58 @@ border-radius: 0;
 /* padding for in-page bookmarks and fixed navbar */
 
 section {
-    padding-top: 30px;
+    /*padding-top: 30px;*/
 }
 
 article.aim section.aim-main h1,
 article.protocol section.protocol-main h1,
-article.software section.software-main h1 {
+article.software section.software-main h1,
+article.people section.people-main h1 {
     font-size: 150%;
     line-height: 1.2;
 }
 
+article.aim section.aim-main h2,
+article.protocol section.protocol-main h2,
+article.software section.software-main h2,
+article.people section.people-main h2 {
+  font-weight: normal;
+  padding: 0;
+  font-size: 130%;
+  line-height: 1.2;
+}
+
 article.aim section.aim-main,
 article.protocol section.protocol-main,
-article.software section.software-main {
+article.software section.software-main/*,
+article.people section.people-main*/ {
     padding: 20px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
     background: #eeeeee;
+}
+
+/*article.aim section.aim-main,
+article.protocol section.protocol-main,
+article.software section.software-main,*/
+article.people section.people-main {
+    /*padding: 20px;*/
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: #eeeeee;
+}
+
+/*article.aim section.aim-main section,
+article.protocol section.protocol-main section,
+article.software section.software-main section,*/
+article.people section.people-main section {
+    padding: 0 30px 10px 10px;
+/*    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: #eeeeee;*/
 }
 
 img {
@@ -83,6 +117,28 @@ section.abstract {
 p#species {
   margin-bottom: 0;
 }
+
+h1.person, h2.person {
+  text-align: center;
+  margin: 0;
+}
+
+h1.person-left, h2.person-left {
+  /*text-align: center;*/
+  margin: 0;
+}
+
+h2.person:last-child, h2.person-left:last-child {
+  margin: 0 0 20px 0;
+}
+
+/* section.person-description {
+  padding: 0 20px 0 0;
+} */
+img.person {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 
 article + article {
   padding: 20px 0 0 0;
