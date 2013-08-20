@@ -32,6 +32,10 @@ section {
     /*padding-top: 30px;*/
 }
 
+section.people-main {
+    padding-top: 30px;
+}
+
 article.aim section.aim-main h1,
 article.protocol section.protocol-main h1,
 article.software section.software-main h1,
