@@ -32,12 +32,16 @@ section {
     padding-top: 30px;
 }
 
-article.aim section.aim-main h1, article.protocol section.protocol-main h1 {
+article.aim section.aim-main h1,
+article.protocol section.protocol-main h1,
+article.software section.software-main h1 {
     font-size: 150%;
     line-height: 1.2;
 }
 
-article.aim section.aim-main, article.protocol section.protocol-main {
+article.aim section.aim-main,
+article.protocol section.protocol-main,
+article.software section.software-main {
     padding: 20px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
