@@ -79,3 +79,7 @@ hr {
 section.abstract {
   padding-top: 0;
 }
+
+p#species {
+  margin-bottom: 0;
+}
