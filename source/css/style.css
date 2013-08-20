@@ -83,3 +83,7 @@ section.abstract {
 p#species {
   margin-bottom: 0;
 }
+
+article + article {
+  padding: 20px 0 0 0;
+}
