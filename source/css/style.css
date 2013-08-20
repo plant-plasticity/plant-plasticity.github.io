@@ -76,3 +76,6 @@ hr {
     color: white;
 }
 
+section.abstract {
+  padding-top: 0;
+}
