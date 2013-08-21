@@ -9,6 +9,14 @@ body {
     padding-bottom: 40px;
 }
 
+body#lost {
+  background: url(../../images/TRAP-404.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @media(max-width:979px) {
     body {
         padding-top: 0;
