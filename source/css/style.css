@@ -32,6 +32,17 @@ section {
     /*padding-top: 30px;*/
 }
 
+ a[name] {
+  padding-top: 40px;
+  margin-top: -40px;
+
+  /*required for webkit browsers*/
+  display: inline-block;
+
+  visibility: hidden;
+
+}
+
 section.people-main {
     padding-top: 30px;
 }
@@ -122,6 +133,15 @@ p#species {
   margin-bottom: 0;
 }
 
+.nav-pills {
+  margin-bottom: 5px;
+}
+
+nav + hr {
+  padding-top: 0;
+  margin-top: 0;
+}
+
 h1.person, h2.person {
   text-align: center;
   margin: 0;
@@ -146,4 +166,8 @@ img.person {
 
 article + article {
   padding: 20px 0 0 0;
+}
+
+article.people + article.people {
+  padding: 0;
 }
