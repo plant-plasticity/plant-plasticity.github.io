@@ -40,7 +40,8 @@ section {
     /*padding-top: 30px;*/
 }
 
- a[name] {
+/*Add padding to top of anchors so they aren't obstructed by fixed navbar*/
+a[name] {
   padding-top: 40px;
   margin-top: -40px;
 
@@ -50,6 +51,10 @@ section {
   visibility: hidden;
 
 }
+
+/*Workaround for 'Fixed element disappears in Chrome'*/
+/*http://stackoverflow.com/a/14569741/996114*/
+html.has-anchors, body.has-anchors {height:100%;overflow:auto}
 
 section.people-main {
     padding-top: 30px;
