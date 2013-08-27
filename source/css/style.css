@@ -68,6 +68,10 @@ article.people section.people-main h1 {
     line-height: 1.2;
 }
 
+article.people section.people-main h1 small {
+  font-size: inherit;
+}
+
 article.aim section.aim-main h2,
 article.protocol section.protocol-main h2,
 article.software section.software-main h2,
