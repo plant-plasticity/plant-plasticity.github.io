@@ -1,0 +1,14 @@
+{% for post in site.categories.aims %}
+  {% for aim in post.aims %}
+    <article class="aim">
+      <section class="aim-main">
+        <a href="{% unless aim.image contains 'http' %}{{ site.imagesurl }}{% endunless %}{{ aim.image }}" target="_blank">
+          <img class="pull-right img-rounded" src="{% unless aim.image contains 'http' %}{{ site.imagesurl }}{% endunless %}{{ aim.image }}" width={{ aim.imagewidth }} alt="{{ aim.imagename }}">
+        </a>
+        <h1>{{ aim.title | markdownify }}</h1>
+        {{ aim.content | markdownify }}
+        {{ aim.progress | prepend:'<strong>Progress:</strong> ' | markdownify }}
+      </section>
+    </article>
+  {% endfor %}
+{% endfor %}
