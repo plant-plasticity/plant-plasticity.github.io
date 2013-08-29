@@ -1,0 +1,31 @@
+<li class="dropdown">
+  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+    Find by Lab
+    <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    {% for post in site.categories.people %}
+      {% for university in post.universities %}
+        <li class="dropdown-submenu">
+          <a tabindex="-1" href="#">{{ university.name }}</a>
+          <ul class="dropdown-menu">
+            {% for lab in university.labs %}
+              <li class="nav-header">{{ lab }}</li>
+              {% for post in site.categories.people %}
+                {% for person in post.people %}
+                  {% if person.lab == lab %}
+                    <li>
+                      <a tabindex="-1" href="#{{ person.shortname }}">
+                        {{ person.fullname }}
+                      </a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</li>
