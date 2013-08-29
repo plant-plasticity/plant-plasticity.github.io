@@ -1,0 +1,30 @@
+{% for post in site.categories.people %}
+  {% for person in post.people %}
+      <article class="people">
+        <a name="{{ person.shortname }}"></a>
+        <section class="people-main">
+          <section class="row-fluid">
+            <section class="span4">
+              <img class="img-rounded" src="{{ site.imagesurl }}{{ person.photo }}" alt="{{ person.fullname }}">
+            </section>
+            <section class="span8">
+              <header>
+                <h1 class="person-left">
+                  <a href="mailto:{{ person.email }}">{{ person.fullname }}</a>
+                  {% unless person.pi == null %}
+                    <small>({{ person.pi }})</small>
+                  {% endunless %}
+                </h1>
+                {% for position in person.positions %}
+                  <h2 class="person-left">{{ position }}</h2>
+                {% endfor %}
+                <h2 class="person-left">{{ person.lab }}</h2>
+                <h2 class="person-left">{{ person.department }}, {{ person.university }}</h2>
+              </header>
+              {{ person.blurb | markdownify }}
+            </section>
+          </section>
+        </section>
+      </article>
+  {% endfor %}
+{% endfor %}
