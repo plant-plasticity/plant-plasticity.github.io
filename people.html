@@ -1,32 +1,11 @@
 ---
 layout: default
+active: people
 ---
 
 <body class="has-anchors">
 
-  <nav class="navbar navbar-fixed-top navbar-inverse">
-    <div class="navbar-inner">
-      <div class="container-fluid">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-        <a href="index.html" class="brand">Integrative Plasticity</a>
-        <div class="nav-collapse">
-          <ul class="nav">
-            <li><a href="{{ site.baseurl }}index.html">About</a></li>
-            <li><a href="{{ site.baseurl }}aims.html">Aims</a></li>
-            <li><a href="{{ site.baseurl }}outreach.html">Outreach</a></li>
-            <li><a href="{{ site.baseurl }}software.html">Software</a></li>
-            <li><a href="{{ site.baseurl }}protocols.html">Protocols</a></li>
-            <li class="active"><a href="{{ site.baseurl }}people">People</a></li>
-            <li><a href="{{ site.baseurl }}publications.html">Publications</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
+  {% include navbar.html %}
 
   <div class="container-fluid">
     <section class="container-fluid">
