@@ -5,7 +5,7 @@
         <section class="people-main">
           <section class="row-fluid">
             <section class="span4">
-              <img class="img-rounded" src="{% unless person.photo contains 'http://' %}{{ site.pdfurl }}{{ site.imagesurl }}{% endunless %}{{ person.photo }}" alt="{{ person.fullname }}">
+              <img class="img-rounded" src="{% unless person.photo contains 'http://' %}{{ site.imagesurl }}{% endunless %}{{ person.photo }}" alt="{{ person.fullname }}">
             </section>
             <section class="span8">
               <header>
