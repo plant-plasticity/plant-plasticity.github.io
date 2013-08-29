@@ -1,0 +1,6 @@
+name: Plant Plasticity
+baseurl: /
+imagesurl: /images/
+cssurl: /source/css/
+permalink: pretty
+markdown: redcarpet
