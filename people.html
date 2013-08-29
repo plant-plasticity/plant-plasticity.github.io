@@ -41,12 +41,11 @@ layout: default
                 <b class="caret"></b>
               </a>
             <ul class="dropdown-menu">
-              <li><a tabindex="-1" href="#kkajala">Kaisa Kajala</a></li>
-              <li><a tabindex="-1" href="#mcovington">Mike Covington</a></li>
-              <li><a tabindex="-1" href="#gturco">Gina Turco</a></li>
-              <li><a tabindex="-1" href="#gturco">Gina Turco</a></li>
-              <li><a tabindex="-1" href="#nsinha">Neelima Sinha</a></li>
-              <li><a tabindex="-1" href="#rdeal">Roger Deal</a></li>
+              {% for post in site.categories.people %}
+                {% for person in post.people %}
+                  <li><a tabindex="-1" href="#{{ person.shortname }}">{{ person.fullname }}</a></li>
+                {% endfor %}
+              {% endfor %}
             </ul>
           </li>
 
