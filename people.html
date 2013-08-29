@@ -55,38 +55,29 @@ layout: default
               <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-
-              <li class="dropdown-submenu">
-                <a tabindex="-1" href="#">UC Riverside</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-header">Bailey-Serres Lab</li>
-                  <li><a tabindex="-1" href="#name">Name</a></li>
-                  <li><a tabindex="-1" href="#">Person 2</a></li>
-                  <li><a tabindex="-1" href="#">Person 3</a></li>
-                </ul>
-              </li>
-
-              <li class="dropdown-submenu">
-                <a tabindex="-1" href="#">UC Davis</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-header">Brady Lab</li>
-                  <li><a tabindex="-1" href="#kkajala">Kaisa Kajala</a></li>
-                  <li><a tabindex="-1" href="#gturco">Gina Turco</a></li>
-                  <li class="nav-header">Maloof Lab</li>
-                  <li><a tabindex="-1" href="#mcovington">Mike Covington</a></li>
-                  <li class="nav-header">Sinha Lab</li>
-                  <li><a tabindex="-1" href="#nsinha">Neelima Sinha</a></li>
-                </ul>
-              </li>
-
-              <li class="dropdown-submenu">
-                <a tabindex="-1" href="#">Emory University</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-header">Deal Lab</li>
-                  <li><a tabindex="-1" href="#rdeal">Roger Deal</a></li>
-                </ul>
-              </li>
-
+              {% for post in site.categories.people %}
+                {% for university in post.universities %}
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">{{ university.name }}</a>
+                    <ul class="dropdown-menu">
+                      {% for lab in university.labs %}
+                        <li class="nav-header">{{ lab }}</li>
+                        {% for post in site.categories.people %}
+                          {% for person in post.people %}
+                            {% if person.lab == lab %}
+                              <li>
+                                <a tabindex="-1" href="#{{ person.shortname }}">
+                                  {{ person.fullname }}
+                                </a>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        {% endfor %}
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endfor %}
+              {% endfor %}
             </ul>
           </li>
         </ul>
