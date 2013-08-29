@@ -17,6 +17,9 @@
                     <li>
                       <a tabindex="-1" href="#{{ person.shortname }}">
                         {{ person.fullname }}
+                        {% unless person.pi == null %}
+                          <small>({{ person.pi }})</small>
+                        {% endunless %}
                       </a>
                     </li>
                   {% endif %}
