@@ -1,81 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>Integrative Plasticity</title>
-  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="source/css/style.css">
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+---
+layout: default
+active: aims
+---
 
-    ga('create', 'UA-43310906-1', 'plant-plasticity.github.io');
-    ga('send', 'pageview');
-
-  </script>
-</head>
 <body>
 
-  <nav class="navbar navbar-fixed-top navbar-inverse">
-    <div class="navbar-inner">
-      <div class="container-fluid">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-        <a href="index.html" class="brand">Integrative Plasticity</a>
-        <div class="nav-collapse">
-          <ul class="nav">
-            <li><a href="index.html">About</a></li>
-            <li class="active"><a href="#">Aims</a></li>
-            <li><a href="outreach.html">Outreach</a></li>
-            <li><a href="software.html">Software</a></li>
-            <li><a href="protocols.html">Protocols</a></li>
-            <li><a href="people">People</a></li>
-            <li><a href="publications.html">Publications</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
+  {% include navbar.html %}
 
   <div class="container-fluid">
     <section class="container-fluid">
       <h1>Project Aims</h1>
       <hr>
-      <article class="aim">
-        <section class="aim-main">
-          <a href="images/TRAP.png"><img class="pull-right img-rounded" src="images/TRAP.png" width=175 alt="TRAP"></a>
-          <h1>Aim 1: Establish INTACT and TRAP tools in tomato, rice and <em>Medicago</em> for comparison of the epigenome, transcriptome, and translatome for root and shoot meristem tissues.</h1>
-          <p>We will produce genotypes for INTACT and TRAP targeted to actively dividing cells and the functional shoot and root apical meristems. With these we will compare the growth apices of different species using multiple genome scale readouts including the nuclear epigenome (H3K27me3 and H3K4me3), transcriptome, and translatome.</p>
-          <p><strong>Progress:</strong> The binary backbone vectors for tomato, <em>Medicago</em> and rice have been generated. Through transient assays we have determined that species-specific components need to be incorporated including codon-optimized biotin ligase, nuclear envelope tags and constitutive promoters. Constructs are being introduced into their respective species at the UC Davis and UC Riverside Transformation Facilities.</p>
-        </section>
-      </article>
 
-      <article class="aim">
-        <section class="aim-main">
-          <a href="images/35S-TRAP-hairy-root.jpg"><img class="pull-right img-rounded" src="images/35S-TRAP-hairy-root.jpg" width=200 alt="p35S-TRAP in tomato hairy roots"></a>
-          <h1>Aim 2: Expand INTACT and TRAP tool generation in rice, tomato and <em>Medicago</em> to explore responses to drought and waterlogging in the whole root versus the cortex and other cell types.</h1>
-          <p>We will produce INTACT and TRAP lines that target cell types of roots. Our minimal target will be the root cortex. However, by use of root transformation with <em>A. rhizogenes</em>, we are already identifying promoters that are specific to other cell types of root systems. With the reagents established, we will investigate the molecular responses of the whole root and cortex of these species to two key abiotic stresses, drought and waterlogging.</p>
-          <p><strong>Progress:</strong> We have already begun to establish the conditions and physiological assays for these stress treatments that should enable suitable cross-species comparisons.</p>
-        </section>
-      </article>
-
-      <article class="aim">
-        <section class="aim-main">
-          <a href="https://lh6.googleusercontent.com/-gfjNKVoN3Xo/UW7hlOG45TI/AAAAAAAAIlE/Ye9vZfeFBOA/w816-h612-no/WP_20130115_004.jpg"><img class="pull-right img-rounded" src="https://lh6.googleusercontent.com/-gfjNKVoN3Xo/UW7hlOG45TI/AAAAAAAAIlE/Ye9vZfeFBOA/w816-h612-no/WP_20130115_004.jpg" width=250 alt="Aim 3"></a>
-          <h1>Aim 3: Integrate community resources for cell-specific genomics and science education.</h1>
-          <p>We have a strong emphasis on the dissemination of protocols, data analysis pipelines, genomic data, and the genetic resources developed in our project. Virtual instances of these pipelines have already been established for INTACT (RNAseq and H3K27me3/H3K4me3 modifications) and are being developed for TRAPseq. We also incorporate education and training targeted to <em>underrepresented</em> and <em>underprivileged</em> students in STEM and plant genomics-enabled research.</p>
-          <p><strong>Progress:</strong> Already, high school students and undergraduates are engaged in the project and three students have accomplished a wet lab internship generating constructs for this project, have toured the UC Davis Plant Conservatory, and have received lectures on world food needs and solutions using GM and natural genetic variation.</p>
-        </section>
-      </article>
-    </section>
+      {% include aims-loop.html %}
 
   </div>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 </body>
-</html>
