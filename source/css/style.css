@@ -188,3 +188,7 @@ article + article {
 article.people + article.people {
   padding: 0;
 }
+
+p > .btn {
+  margin-left: 15px;
+}
