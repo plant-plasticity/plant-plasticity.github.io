@@ -56,7 +56,8 @@ a[name] {
 /*http://stackoverflow.com/a/14569741/996114*/
 html.has-anchors, body.has-anchors {
   height: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 section.people-main {
