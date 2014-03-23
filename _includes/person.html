@@ -8,7 +8,11 @@
       <section class="span8">
         <header>
           <h1 class="person-left">
-            <a href="mailto:{{ person.email }}">{{ person.fullname }}</a>
+            {% if person.email == "" %}
+                {{ person.fullname }}
+            {% else %}
+                <a href="mailto:{{ person.email }}">{{ person.fullname }}</a>
+            {% endif %}
             {% unless person.pi == null %}
               <small>({{ person.pi }})</small>
             {% endunless %}
