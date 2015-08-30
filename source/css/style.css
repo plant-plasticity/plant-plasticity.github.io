@@ -141,6 +141,7 @@ hr {
     color: white;
 }
 
+.navbar-inverse a:hover,
 .navbar-inverse .nav-collapse .nav > li > a:hover,
 .navbar-inverse .nav-collapse .dropdown-menu a:hover {
     background-color: #999999;
