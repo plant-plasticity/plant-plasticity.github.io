@@ -6,14 +6,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a href="{{ site.baseurl }}" class="brand">Integrative Plasticity</a>
+      <a href="{{ site.baseurl }}" class="brand {% if page.active == 'about' %}active{% endif %}">
+        Integrative Plasticity
+      </a>
       <div class="nav-collapse">
         <ul class="nav">
-          <li{% if page.active == 'about' %} class="active"{% endif %}>
-            <a href="{{ site.baseurl }}">
-              About
-            </a>
-          </li>
           <li{% if page.active == 'aims' %} class="active"{% endif %}>
             <a href="{{ site.baseurl }}aims">
               Aims

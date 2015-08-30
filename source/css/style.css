@@ -132,6 +132,7 @@ hr {
     border-top: 1px solid gray;
 }
 
+.navbar-inverse .brand.active,
 .navbar-inverse .nav-collapse .nav > li.active > a,
 .navbar-inverse .nav-collapse .nav > li.active > a:hover,
 .navbar-inverse .nav-collapse .dropdown-menu .active a,
