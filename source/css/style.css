@@ -196,3 +196,12 @@ article.people + article.people {
 p > .btn {
   margin-left: 15px;
 }
+
+
+/***********/
+/* Posters */
+/***********/
+
+ul.posters {
+  list-style: none;
+}

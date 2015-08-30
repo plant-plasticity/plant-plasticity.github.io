@@ -1,6 +1,7 @@
 name: Plant Plasticity
 baseurl: /
 imagesurl: /images/
+postersurl: /resources/posters/
 resourcesurl: /resources/
 cssurl: /source/css/
 permalink: pretty

@@ -1,0 +1,15 @@
+<ul class="posters">
+  {% for post in site.categories.posters %}
+    {% for poster in post.posters %}
+      <li class="poster">
+        <p>
+          {{ poster.author | markdownify | remove: '<p>' | remove: '</p>' }}
+          ({{ poster.year }}).
+          <a href="{{ site.postersurl }}{{ poster.filename }}" target="_blank">
+            {{ poster.title | markdownify | remove: '<p>' | remove: '</p>' }}
+          </a>
+        </p>
+      </li>
+    {% endfor %}
+  {% endfor %}
+</ul>

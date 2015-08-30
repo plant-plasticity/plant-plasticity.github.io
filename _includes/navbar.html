@@ -44,6 +44,11 @@
               Publications
             </a>
           </li>
+          <li{% if page.active == 'posters' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}posters">
+              Posters
+            </a>
+          </li>
         </ul>
         <p class="pull-right">
           v{{ site.version }}
