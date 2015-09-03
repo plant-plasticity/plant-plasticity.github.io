@@ -1,0 +1,16 @@
+<ul class="publications">
+  {% for post in site.categories.publications %}
+    {% for publication in post.publications %}
+      <li class="publication">
+        <p>
+          {{ publication.author | markdownify | remove: '<p>' | remove: '</p>' }}
+          ({{ publication.year }}).
+          <a href="{{ site.publicationsurl }}{{ publication.filename }}" target="_blank">
+            {{ publication.title | markdownify | remove: '<p>' | remove: '</p>' }}
+          </a>
+          {{ publication.journal }}
+        </p>
+      </li>
+    {% endfor %}
+  {% endfor %}
+</ul>

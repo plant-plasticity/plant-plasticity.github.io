@@ -200,10 +200,11 @@ p > .btn {
 }
 
 
-/***********/
-/* Posters */
-/***********/
+/****************************/
+/* Posters and Publications */
+/****************************/
 
-ul.posters {
+ul.posters,
+ul.publications {
   list-style: none;
 }
