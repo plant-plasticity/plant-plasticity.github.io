@@ -6,5 +6,5 @@ publicationsurl: /resources/publications/
 resourcesurl: /resources/
 cssurl: /source/css/
 permalink: pretty
-markdown: redcarpet
+markdown: kramdown
 version: 0.3.3
