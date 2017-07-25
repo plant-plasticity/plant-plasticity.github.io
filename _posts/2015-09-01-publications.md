@@ -3,6 +3,14 @@ categories: publications
 
 publications:
 
+- author:   "**Zhao D**, Hamilton JP, Hardigan M, Yin D, He T, Vaillancourt B, Reynoso M, Pauluzzi G, Funkhouser S, Cui Y, Bailey-Serres J, Jiang J, Buell CR, Jiang N"
+  year:     2017     # 2017-01
+  title:    "Analysis of Ribosome-Associated mRNAs in Rice Reveals the Importance of Transcript Size and GC Content in Translation"
+  journal:  "Genes Genomes Genetics 7: 203."
+  pmid:     27852012
+  filename: "Zhao_Ning_G3_35SHFL18_17_.pdf"
+
+
 - author:   "**Townsley BT**, Covington MF, Ichihashi Y, Zumstein K, Sinha NR"
   year:     2015    # 2015-05
   title:    "BrAD-seq: Breath Adapter Directional sequencing: a streamlined, ultra-simple and fast library preparation protocol for strand specific mRNA library construction."
