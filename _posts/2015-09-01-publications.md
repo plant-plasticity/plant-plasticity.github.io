@@ -3,12 +3,20 @@ categories: publications
 
 publications:
 
+- author:   **PREPRINT**: **Maher KA**, **Bajic M**, Kajala K, Reynoso M, Pauluzzi G, West DA, Zumstein K, Woodhouse M, Bubb K, Dorrity M, Queitsch C, Bailey-Serres J, Sinha N, Brady SM, Deal RB
+  year:     2017     # 2017-01
+  title:    "Profiling of accessible chromatin regions across multiple plant species and cell types reveals common gene regulatory principles and new control modules"
+  journal:  "bioRxiv"
+  pmid:     
+  url:      "http://www.biorxiv.org/content/early/2017/07/24/167932"
+
+
 - author:   "**Zhao D**, Hamilton JP, Hardigan M, Yin D, He T, Vaillancourt B, Reynoso M, Pauluzzi G, Funkhouser S, Cui Y, Bailey-Serres J, Jiang J, Buell CR, Jiang N"
   year:     2017     # 2017-01
   title:    "Analysis of Ribosome-Associated mRNAs in Rice Reveals the Importance of Transcript Size and GC Content in Translation"
   journal:  "Genes Genomes Genetics 7: 203."
   pmid:     27852012
-  url: "https://www.ncbi.nlm.nih.gov/pubmed/27852012"
+  url:      "https://www.ncbi.nlm.nih.gov/pubmed/27852012"
 
 
 - author:   "**Townsley BT**, Covington MF, Ichihashi Y, Zumstein K, Sinha NR"
@@ -16,7 +24,7 @@ publications:
   title:    "BrAD-seq: Breath Adapter Directional sequencing: a streamlined, ultra-simple and fast library preparation protocol for strand specific mRNA library construction."
   journal:  "Front Plant Sci 6: 366."
   pmid:     26052336
-  url: "https://www.ncbi.nlm.nih.gov/pubmed/26052336"
+  url:      "https://www.ncbi.nlm.nih.gov/pubmed/26052336"
 
 - author:   "**Mickelbart MV**, Hasegawa PM, Bailey-Serres J"
   year:     2015    # 2015-04
