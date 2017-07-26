@@ -8,7 +8,7 @@ publications:
   title:    "Analysis of Ribosome-Associated mRNAs in Rice Reveals the Importance of Transcript Size and GC Content in Translation"
   journal:  "Genes Genomes Genetics 7: 203."
   pmid:     27852012
-  filename: "Zhao_Ning_G3_35SHFL18_17_.pdf"
+  publicationsurl: "https://www.ncbi.nlm.nih.gov/pubmed/27852012"
 
 
 - author:   "**Townsley BT**, Covington MF, Ichihashi Y, Zumstein K, Sinha NR"
@@ -74,4 +74,4 @@ publications:
   title:    ""
   journal:  ""
   pmid:
-  filename: ""
+  publicationsurl: ""
