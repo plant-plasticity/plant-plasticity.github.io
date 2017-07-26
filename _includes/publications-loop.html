@@ -5,7 +5,7 @@
         <p>
           {{ publication.author | markdownify | remove: '<p>' | remove: '</p>' }}
           ({{ publication.year }}).
-          <a href="{{ publicationsurl }}" target="_blank">
+          <a href="{{ pubsurl }}" target="_blank">
             {{ publication.title | markdownify | remove: '<p>' | remove: '</p>' }}
           </a>
           {{ publication.journal }}
