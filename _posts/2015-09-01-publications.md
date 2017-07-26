@@ -3,11 +3,11 @@ categories: publications
 
 publications:
 
-- author:   "**PREPRINT**, Maher KA, Bajic M, Kajala K, Reynoso M, Pauluzzi G, West DA, Zumstein K, Woodhouse M, Bubb K, Dorrity M, Queitsch C, Bailey-Serres J, Sinha N, Brady SM, Deal RB"
-  year:     2017     # 2017-01
+- author:   "**Maher KA**, Bajic M, Kajala K, Reynoso M, Pauluzzi G, West DA, Zumstein K, Woodhouse M, Bubb K, Dorrity M, Queitsch C, Bailey-Serres J, Sinha N, Brady SM, Deal RB"
+  year:     2017     # 2017-07
   title:    "Profiling of accessible chromatin regions across multiple plant species and cell types reveals common gene regulatory principles and new control modules"
   journal:  "bioRxiv"
-  pmid:     167932
+  pmid:     27852012
   url:      "http://www.biorxiv.org/content/early/2017/07/24/167932"
 
 
