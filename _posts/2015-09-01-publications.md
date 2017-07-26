@@ -8,7 +8,7 @@ publications:
   title:    "Analysis of Ribosome-Associated mRNAs in Rice Reveals the Importance of Transcript Size and GC Content in Translation"
   journal:  "Genes Genomes Genetics 7: 203."
   pmid:     27852012
-  publicationsurl: https://www.ncbi.nlm.nih.gov/pubmed/27852012
+  publicationsurl: "https://www.ncbi.nlm.nih.gov/pubmed/27852012"
 
 
 - author:   "**Townsley BT**, Covington MF, Ichihashi Y, Zumstein K, Sinha NR"
@@ -16,7 +16,7 @@ publications:
   title:    "BrAD-seq: Breath Adapter Directional sequencing: a streamlined, ultra-simple and fast library preparation protocol for strand specific mRNA library construction."
   journal:  "Front Plant Sci 6: 366."
   pmid:     26052336
-  filename: "BrADseq.pdf"
+  publicationsurl: "https://www.ncbi.nlm.nih.gov/pubmed/26052336"
 
 - author:   "**Mickelbart MV**, Hasegawa PM, Bailey-Serres J"
   year:     2015    # 2015-04
@@ -74,4 +74,4 @@ publications:
   title:    ""
   journal:  ""
   pmid:
-  publicationsurl: 
+  publicationsurl: ""
