@@ -3,6 +3,14 @@ categories: publications
 
 publications:
 
+- author:   "**Reynoso M**, **Pauluzzi G,**, Kajala K, Cabanlit S, Velasco J, Bazin J, Deal RB, Sinha N, Brady SM, Bailey-Serres J"
+  year:     2017     # 2017-07
+  title:    "Nuclear transcriptomes at high resolution using retooled INTACT"
+  journal:  "Plant Physiology"
+  pmid:     28956755
+  url:      "http://www.plantphysiol.org/content/early/2017/09/27/pp.17.00688"
+
+
 - author:   "***PREPRINT:*** **Maher K**, **Bajic M**, Kajala K, Reynoso M, Pauluzzi G, West DA, Zumstein K, Woodhouse M, Bubb K, Dorrity M, Queitsch C, Bailey-Serres J, Sinha N, Brady SM, Deal RB"
   year:     2017     # 2017-07
   title:    "Profiling of accessible chromatin regions across multiple plant species and cell types reveals common gene regulatory principles and new control modules"
