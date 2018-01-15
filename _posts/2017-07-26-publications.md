@@ -3,20 +3,33 @@ categories: publications
 
 publications:
 
+- author:   "**Maher K**, **Bajic M**, Kajala K, Reynoso M, Pauluzzi G, West DA, Zumstein K, Woodhouse M, Bubb K, Dorrity M, Queitsch C, Bailey-Serres J, Sinha N, Brady SM, Deal RB"
+  year:     2018     # 2018-?
+  title:    "Profiling of accessible chromatin regions across multiple plant species and cell types reveals common gene regulatory principles and new control modules"
+  journal:  "Plant Cell"
+  pmid:     29229750
+  url:      "https://www.ncbi.nlm.nih.gov/pubmed/29229750"
+
+- author:   "**Bajic M**, Maher K, Deal RB"
+  year:     2018     # 2018-1
+  title:    "Identification of Open Chromatin Regions in Plant Genomes Using ATAC-Seq"
+  journal:  "Methods Mol Biol."
+  pmid:     29052193
+  url:      "https://www.ncbi.nlm.nih.gov/pubmed/29052193"
+
 - author:   "**Reynoso M**, **Pauluzzi G,**, Kajala K, Cabanlit S, Velasco J, Bazin J, Deal RB, Sinha N, Brady SM, Bailey-Serres J"
-  year:     2017     # 2017-07
+  year:     2018     # 2018-01
   title:    "Nuclear transcriptomes at high resolution using retooled INTACT"
   journal:  "Plant Physiology"
   pmid:     28956755
-  url:      "http://www.plantphysiol.org/content/early/2017/09/27/pp.17.00688"
+  url:      "https://www.ncbi.nlm.nih.gov/pubmed/28956755"
 
-
-- author:   "***PREPRINT:*** **Maher K**, **Bajic M**, Kajala K, Reynoso M, Pauluzzi G, West DA, Zumstein K, Woodhouse M, Bubb K, Dorrity M, Queitsch C, Bailey-Serres J, Sinha N, Brady SM, Deal RB"
-  year:     2017     # 2017-07
-  title:    "Profiling of accessible chromatin regions across multiple plant species and cell types reveals common gene regulatory principles and new control modules"
-  journal:  "bioRxiv"
-  pmid:     167932
-  url:      "http://www.biorxiv.org/content/early/2017/07/24/167932"
+- author:   "**Lee T**, Bailey-Serres J"
+  year:     2017     # 2017-08
+  title:    "Lighting the shadows: methods that expose nuclear and cytoplasmic gene regulatory control"
+  journal:  "Curr Opin Biotechnol."
+  pmid:     28800418
+  url:      "https://www.ncbi.nlm.nih.gov/pubmed/28800418"
 
 - author:   "**Zhao D**, Hamilton JP, Hardigan M, Yin D, He T, Vaillancourt B, Reynoso M, Pauluzzi G, Funkhouser S, Cui Y, Bailey-Serres J, Jiang J, Buell CR, Jiang N"
   year:     2017     # 2017-01
