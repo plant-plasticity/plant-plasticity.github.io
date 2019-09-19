@@ -3,7 +3,7 @@ categories: publications
 
 publications:
 
-- author:   "**Reynoso M**, **Kajala K**, **Bajic M**, **West DA**, **Pauluzzi G**, Yao A, Hatch K, Zumstein K, Woodhouse M, Rodriguez-Medina J, Sinha N, Brady SM, Deal RB, Bailey-Serres J"
+- author:   "**Reynoso MA**, **Kajala K**, **Bajic M**, **West DA**, **Pauluzzi G**, Yao A, Hatch K, Zumstein K, Woodhouse M, Rodriguez-Medina J, Sinha N, Brady SM, Deal RB, Bailey-Serres J"
   year:     2019     # 2019-1
   title:    "Evolutionary flexibility in flooding response circuitry in angiosperms"
   journal:  "Science"
