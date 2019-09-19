@@ -3,6 +3,13 @@ categories: publications
 
 publications:
 
+- author:   "**Reynoso M**, **Kajala K**, **Bajic M**, **West DA**, **Pauluzzi G**, Yao A, Hatch K, Zumstein K, Woodhouse M, Rodriguez-Medina J, Sinha N, Brady SM, Deal RB, Bailey-Serres J"
+  year:     2019     # 2019-1
+  title:    "Evolutionary flexibility in flooding response circuitry in angiosperms"
+  journal:  "Science"
+  pmid:     
+  url:      "https://science.sciencemag.org/cgi/doi/10.1126/science.aax8862"
+
 - author:   "**Maher K**, **Bajic M**, Kajala K, Reynoso M, Pauluzzi G, West DA, Zumstein K, Woodhouse M, Bubb K, Dorrity M, Queitsch C, Bailey-Serres J, Sinha N, Brady SM, Deal RB"
   year:     2018     # 2018-?
   title:    "Profiling of accessible chromatin regions across multiple plant species and cell types reveals common gene regulatory principles and new control modules"
