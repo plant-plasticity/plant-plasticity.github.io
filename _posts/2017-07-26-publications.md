@@ -6,9 +6,11 @@ publications:
 - author:   "**Reynoso MA**, **Kajala K**, **Bajic M**, **West DA**, **Pauluzzi G**, Yao A, Hatch K, Zumstein K, Woodhouse M, Rodriguez-Medina J, Sinha N, Brady SM, Deal RB, Bailey-Serres J"
   year:     2019     # 2019-1
   title:    "Evolutionary flexibility in flooding response circuitry in angiosperms"
-  journal:  "Science"
+  journal:  "Science 365: 1291–1295"
   pmid:     
-  url:      "https://science.sciencemag.org/cgi/doi/10.1126/science.aax8862"
+  url:      "http://science.sciencemag.org/cgi/content/full/365/6459/1291?ijkey=YBQeBEdW3Mdsc&keytype=ref&siteid=sci"
+  title:     Reprint 
+  url:  "http://science.sciencemag.org/cgi/rapidpdf/365/6459/1291?ijkey=YBQeBEdW3Mdsc&keytype=ref&siteid=sci"
 
 - author:   "**Maher K**, **Bajic M**, Kajala K, Reynoso M, Pauluzzi G, West DA, Zumstein K, Woodhouse M, Bubb K, Dorrity M, Queitsch C, Bailey-Serres J, Sinha N, Brady SM, Deal RB"
   year:     2018     # 2018-?
@@ -24,12 +26,18 @@ publications:
   pmid:     29052193
   url:      "https://www.ncbi.nlm.nih.gov/pubmed/29052193"
 
-- author:   "**Reynoso M**, **Pauluzzi G,**, Kajala K, Cabanlit S, Velasco J, Bazin J, Deal RB, Sinha N, Brady SM, Bailey-Serres J"
+- author:   "**Reynoso M**, **Pauluzzi G**, Kajala K, Cabanlit S, Velasco J, Bazin J, Deal RB, Sinha N, Brady SM, Bailey-Serres J"
   year:     2018     # 2018-01
   title:    "Nuclear transcriptomes at high resolution using retooled INTACT"
   journal:  "Plant Physiology"
   pmid:     28956755
   url:      "https://www.ncbi.nlm.nih.gov/pubmed/28956755"
+
+- author:   "**Reynoso M**, **Pauluzzi G**, Cabanlit S, Velasco J, Bazin J, Deal RB, Sinha N, Brady SM, Bailey-Serres J, Kajala K"
+  year:     2018     # 2018-01
+  title:    "Isolation of Nuclei in Tagged Cell Types (INTACT), RNA Extraction and Ribosomal RNA Degradation to Prepare Material for RNA-Seq"
+  journal:  "Bio-protocol e2458"
+  url:      "https://bio-protocol.org/e2458"
 
 - author:   "**Lee T**, Bailey-Serres J"
   year:     2017     # 2017-08
