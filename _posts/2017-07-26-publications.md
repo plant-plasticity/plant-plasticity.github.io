@@ -9,8 +9,8 @@ publications:
   journal:  "Science 365: 1291–1295"
   pmid:     
   url:      "http://science.sciencemag.org/cgi/content/full/365/6459/1291?ijkey=YBQeBEdW3Mdsc&keytype=ref&siteid=sci"
-  title:     Reprint 
-  url:  "http://science.sciencemag.org/cgi/rapidpdf/365/6459/1291?ijkey=YBQeBEdW3Mdsc&keytype=ref&siteid=sci"
+  othertitle:     "Reprint" 
+  otherurl:  "http://science.sciencemag.org/cgi/rapidpdf/365/6459/1291?ijkey=YBQeBEdW3Mdsc&keytype=ref&siteid=sci"
 
 - author:   "**Maher K**, **Bajic M**, Kajala K, Reynoso M, Pauluzzi G, West DA, Zumstein K, Woodhouse M, Bubb K, Dorrity M, Queitsch C, Bailey-Serres J, Sinha N, Brady SM, Deal RB"
   year:     2018     # 2018-?
@@ -117,3 +117,5 @@ publications:
   journal:  ""
   pmid:
   url: 
+  otherurl:
+  othertitle: ""
