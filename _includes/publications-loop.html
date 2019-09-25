@@ -8,8 +8,8 @@
           <a href="{{ publication.url }}" target="_blank">
             {{ publication.title | markdownify | remove: '<p>' | remove: '</p>' }}
           </a>
-          <a href="{{ other.url }}" target="_blank">
-          {{ other.title | markdownify | remove: '<p>' | remove: '</p>' }}
+          <a href="{{ publication.otherurl }}" target="_blank">
+          {{ publication.othertitle | markdownify | remove: '<p>' | remove: '</p>' }}
           </a>
           {{ publication.journal }}
         </p>
