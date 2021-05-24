@@ -3,11 +3,18 @@ categories: publications
 
 publications:
 
+- author:   "**Kajala K**, **Gouran M**, **Shaar-Moshe L**, **Mason GA**, **Rodriguez-Medina J**, Kawa D, Pauluzzi G, Reynoso MA, Canto-Pastor A, Manzano C, Lau V, Artur MAS, West DA, Gray SB, Borowsky ATm Moore BM, Yao AI, Morimoto KW, Bajic M, Formentin E, Nirmal NA, Rodriguez A, Pasha A, Deal RB, Kliebenstein DJ, Hvidsten TR, Provart NJ, Sinha N, Runcie DE, Bailey-Serres J, Brady SM"
+  year:     2021     # 2021-1
+  title:    "Innovation, conservation, and repurposing of gene function in root cell type development."
+  journal:  "Cell"
+  pmid:     
+  url:      "https://authors.elsevier.com/sd/article/S0092-8674(21)00504-3"
+  
 - author:   "**Reynoso MA**, **Kajala K**, **Bajic M**, **West DA**, **Pauluzzi G**, Yao A, Hatch K, Zumstein K, Woodhouse M, Rodriguez-Medina J, Sinha N, Brady SM, Deal RB, Bailey-Serres J"
   year:     2019     # 2019-1
   title:    "Evolutionary flexibility in flooding response circuitry in angiosperms."
   journal:  "Science 365: 1291–1295."
-  pmid:     
+  pmid:     31604238
   url:      "http://science.sciencemag.org/cgi/content/full/365/6459/1291?ijkey=YBQeBEdW3Mdsc&keytype=ref&siteid=sci"
   othertitle:     "Reprint." 
   otherurl:  "http://science.sciencemag.org/cgi/rapidpdf/365/6459/1291?ijkey=YBQeBEdW3Mdsc&keytype=ref&siteid=sci"
